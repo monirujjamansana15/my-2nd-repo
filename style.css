@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+*{margin:0; padding:0;}
+
+
+body
+  {
+      font-family: 'Work Sans', sans-serif;
+  }
+
+
+#topbar
+ {
+      background: #f5f5f5;
+ }
+
+
+.container
+ {
+     width: 1140px;
+     padding-left: 15px;
+     padding-right: 15px;
+     margin: auto;
+     padding-top: 15px;
+ }
+
+
+.Phone
+ {
+      width: 245px;
+      float: left;
+      border-left: 1px solid #ddd;
+      border-right: 1px solid #ddd;
+ }
+
+
+.Phone i
+ {
+      color: #ff5200;
+      padding: 15px 6px;
+ }
+
+
+.Email
+  {
+      width: 650px;
+      float: left;
+  }
+
+
+.Email i
+  {
+      color: #ff5200;
+      padding: 15px 6px;
+  }
+
+
+.topbarwrapper
+  {
+      overflow: hidden;
+  }
+
+
+.social a
+  {
+      color: #272626;
+      display: block;
+      float: left;
+      padding: 15px;
+      border-right: 1px solid #ddd;
+  }
+
+
+.social a:first-child
+  {
+      border-left: 1px solid #ddd;
+  }
+
+
+.social a i:hover
+  {
+      color: #ff5200 ;
+      transition: 0.1s;
+  }
+
+
+  .PrimaryWrapper
+  {
+      overflow: hidden;
+      width: 100%;
+  }
+
+
+.logo
+  {
+      float: left;
+      width: 150px;
+
+  }
+
+
+  img
+  {
+
+      padding-left: 55px;
+      width: 80px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+      padding-top: 10px;
+  }
+
+
+  .menu
+  {
+      float: left;
+      width: 990px;
+  }
+
+
+  ul.MainMenu
+  {
+      float: right;
+      list-style: none;
+  }
+
+
+  ul.MainMenu li
+   {
+      float: left;
+      /* text-decoration: none; */
+  }
+
+
+  ul.MainMenu li a
+  {
+      padding: 30px 15px;
+      font-size: 16px;
+      text-transform: uppercase;
+      font-family: oswald;
+      text-decoration: none;
+      display: block;
+      color: #2b2b2b;
+      font-weight: 500;
+  }
+
+
+  .PrimaryMenu
+  {
+      background-color: white;
+  }
+
+
+  ul.MainMenu li a:hover
+  {
+     color: #ff5200;
+     transition: 0.3s;
+  }
+
+#homeslider
+{
+  background: url('coverslider001.png');
+   background-position: center;
+   background-repeat: no-repeat;
+
+}
+
+
+
+
+.slidercontent
+{
+    color: white;
+}
+
+.slidercontent h1
+ {
+    /* margin-top: 1000px; */
+    margin: 15px;
+    width: 529px;
+    text-transform: unset;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.slidercontent p
+{
+    margin-bottom: 30px;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    width: 429px;
+    /* float: left; */
+}
+
+button#sliderbutton
+{
+    margin-bottom: 60px;
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 18px 25px;
+    color: white;
+    background: #ff5200;
+    border: 2px solid #ddd;
+
+}
+
+.sliderNav {
+    padding: 35px 0px;
+    margin: auto;
+    width: 46px;
+    /* margin-bottom: 10px; */
+    /* align-content: center; */
+}
+
+.sliderNav span
+{
+    cursor: pointer;
+    border-radius: 100%;
+    background: transparent;
+    width: 6px;
+    display: block;
+    height: 6px;
+    border: 2px solid #ddd;
+    float: left;
+    margin: 5px 5px;
+
+}
+
+.sliderNav span:last-child
+{
+  background: #ff5200;
+  border-color: #ff5200;
+}
+button#sliderbutton:hover
+{
+  background-color: #252525;
+    border-color: #252525;
+    color: #fff;
+    transition: 0.3s;
+}
